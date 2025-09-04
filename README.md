@@ -15,7 +15,7 @@ $\hat{y} = b^\star + w^\star x$
 
 During assignment 1, you will have to implement the multiple linear regression algorithm
 in a way that:
-1. there is no default value for the intercept and slope, and
+1. intercept and slope are not arguments in the constructor (just decide on a default value, like 0 or None, and construct accordingly), and
 2. the training data and ground truth are passed as arguments to the fit function, not during initialization.
 
 This file additionally includes an example of how to use the class (in the main).
